@@ -44,7 +44,7 @@ SELECT
 FROM 
     customers c
 LEFT JOIN 
-    shippings s ON c.customer_id = s.shipping_id;
+    shippings s ON c.customer_id = s.customer_id;
 
 --Part 3: GROUP BY
 
